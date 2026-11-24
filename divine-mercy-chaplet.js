@@ -1,4 +1,4 @@
-const divineMercyIndex=prayers.findIndex(p=>p.id==='sacred-heart');prayers.splice(divineMercyIndex<0?prayers.length:divineMercyIndex,0,{id:'divine-mercy-chaplet',title:'Chaplet of Divine Mercy',category:'Jesus',text:`In the name of the Father, and of the Son, and of the Holy Spirit. Amen.
+const divineMercyIndex=prayers.findIndex(p=>p.id==='rosary');prayers.splice(divineMercyIndex<0?prayers.length:divineMercyIndex+1,0,{id:'divine-mercy-chaplet',title:'Chaplet of Divine Mercy',category:'Jesus',text:`In the name of the Father, and of the Son, and of the Holy Spirit. Amen.
 
 OPENING PRAYERS (optional)
 (Diary of St. Faustina Kowalska, 1319)
